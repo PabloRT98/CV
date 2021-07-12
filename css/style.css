@@ -1406,7 +1406,7 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 .same-size{
   width: 150px;
   height: 150px;
-  object-fit: cover;
+  
 }
 
 .tech-title{
@@ -1534,4 +1534,8 @@ h5.tech-title{
 
 .card p{
   font-size: 10pt;
+}
+
+.professional-skills{
+  margin-top: 10px;
 }
