@@ -1116,11 +1116,11 @@ input[type="text"] {
   outline: none;
 }
 
-.btn {
+/* .btn {
   margin-right: 4px;
   margin-bottom: 4px;
   font-family: "Space Mono", Arial, serif;
-  font-size: 16px;
+  font-size:  20px;
   font-weight: 400;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
@@ -1130,6 +1130,7 @@ input[type="text"] {
   -o-transition: 0.5s;
   transition: 0.5s;
   padding: 8px 20px;
+  white-space: nowrap;
 }
 .btn.btn-md {
   padding: 8px 20px !important;
@@ -1147,13 +1148,12 @@ input[type="text"] {
 .btn-primary {
   background: #ff9000;
   color: #fff;
-  border: 2px solid #ff9000;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
   background: #ff9b1a !important;
-  border-color: #ff9b1a !important;
+  border-color: white !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
@@ -1298,7 +1298,7 @@ input[type="text"] {
   right: 18px;
   visibility: visible;
   opacity: 1;
-}
+} */
 
 .form-control {
   box-shadow: none;
@@ -1576,7 +1576,6 @@ h5.tech-title {
 }
 
 p.under-scroll {
-  margin-top: 50px;
   font-family: "Cabin", sans-serif;
   letter-spacing: 12px;
   text-indent: 12px;
@@ -1584,12 +1583,17 @@ p.under-scroll {
   -webkit-animation: colorText 5s ease-out infinite,
     nudgeText 5s ease-out infinite;
   animation: colorText 5s ease-out infinite, nudgeText 5s ease-out infinite;
+  margin-top:30px;
 }
 
 .mouse {
-  margin: 50px auto;
-  width: 100px;
+  margin: 40px auto;
+  /* display: inline-block; */
 }
+/* .mouse p{
+  margin-bottom: 0;
+  vertical-align: middle;
+} */
 .mouse-icon {
   width: 25px;
   height: 45px;
@@ -1599,6 +1603,7 @@ p.under-scroll {
   position: relative;
   text-align: center;
   margin: auto;
+  /* vertical-align: middle; */
 }
 .mouse-wheel {
   height: 6px;
@@ -1610,6 +1615,22 @@ p.under-scroll {
   -webkit-animation: 1.6s ease infinite wheel-up-down;
   -moz-animation: 1.6s ease infinite wheel-up-down;
   animation: 1.6s ease infinite wheel-up-down;
+}
+
+@media only screen and (max-width: 291px),
+only screen and (max-height: 644px){
+  .btn{ margin-bottom: 20px; }
+  .mouse p{
+  margin-bottom: 0;
+  vertical-align: middle;
+  margin-top:0;
+  display: inline-block;
+}
+.mouse-icon{
+  vertical-align: middle;
+  display: inline-block;
+}
+
 }
 
 @-webkit-keyframes wheel-up-down {
