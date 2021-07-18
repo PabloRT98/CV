@@ -1673,3 +1673,7 @@ only screen and (max-height: 644px){
     opacity: 0;
   }
 }
+
+.min-size-to-div{
+  max-width: 30%;
+}
