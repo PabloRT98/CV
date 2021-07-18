@@ -1620,16 +1620,15 @@ p.under-scroll {
 
 @media only screen and (max-width: 291px),
 only screen and (max-height: 644px){
-  .btn{ margin-bottom: 20px; }
   .mouse p{
   margin-bottom: 0;
   vertical-align: middle;
   margin-top:0;
-  display: inline-block;
+  display: none;
 }
 .mouse-icon{
   vertical-align: middle;
-  display: inline-block;
+  display: none;
 }
 
 }
