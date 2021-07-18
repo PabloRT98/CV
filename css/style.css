@@ -1676,4 +1676,10 @@ only screen and (max-height: 644px){
 
 .min-size-to-div{
   max-width: 30%;
+  white-space: nowrap;
 }
+
+.min-size-to-div > a:nth-child(1) {
+  width: 200px;
+}
+

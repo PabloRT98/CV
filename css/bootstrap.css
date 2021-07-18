@@ -2945,11 +2945,12 @@ textarea.form-control-lg {
   background-color: #0d6efd00;
   border-color: white;
   border: 2px solid ;
-  min-width: 15%;
   font-size: 11pt;
+  display: inline-block;
+  min-width: 15%;
 }
 
-@media only screen and (max-width: 291px){
+@media only screen and (max-width: 533px){
   .btn{ margin-bottom: 20px; }
 }
 
