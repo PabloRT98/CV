@@ -52,7 +52,9 @@
     "english_level":"Nivel B2 de Inglés",
     "english_level_description":"Obtuve el certificado de B2 de Inglés expedido por APTIS",
     "all_rights":"&copy; Pablo Ripoll Torrejón. Todos los derechos reservados.",
-    "cv_pdf_div":"<a href='docs/cv_es.pdf' class='btn btn-primary'>Descargar CV</a>"
+    "cv_pdf_div":"<a href='docs/cv_es.pdf' class='btn btn-primary'>Descargar CV</a>",
+    "last_update":"Última actualización: 18/07/2021",
+    "projects":"Proyectos"
     
 
     
