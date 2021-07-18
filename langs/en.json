@@ -51,6 +51,7 @@
     "languages_certifications":"Languages and certifications",
     "english_level":"English level B2",
     "english_level_description":"I obtained the B2 certificate in English issued by APTIS.",
-    "all_rights":"&copy; Pablo Ripoll Torrejón. All rights reserved."
+    "all_rights":"&copy; Pablo Ripoll Torrejón. All rights reserved.",
+    "cv_pdf_div":"<a href='docs/cv_en.pdf' class='btn btn-primary'>Download CV</a>"
     
 }
