@@ -9,8 +9,8 @@
     "about_me_email": "Email:",
     "about_me_address": "Address:",
     "about_me_hello": "Hi there!",
-    "about_me_desc_1": "I am Pablo Ripoll Torrejón, Software Engineer currently working at <a href='https://www.iturri.com/' target='_blank'>ITURRI</a>.",
-    "about_me_desc_2": "23 years old, I was born on March 30, 1998 in Encinasola, a small town in the Sierra de Huelva. I currently reside in Seville, where I started my degree in Computer Software Engineering in 2016 at the Escuela Técnica Superior de Ingeniería Informática of the University of Seville.",
+    "about_me_desc_1": "I am Pablo Ripoll Torrejón, graduated in Computer Engineering - Software Engineering and currently working as RPA Developer at <a href='https://www.servinform.es/' target='_blank'>Servinform</a>.",
+    "about_me_desc_2": "24 years old, I was born on March 30, 1998 in Encinasola, a small town in the Sierra de Huelva. I currently reside in Seville, where I started my degree in Computer Software Engineering in 2016 at the Escuela Técnica Superior de Ingeniería Informática of the University of Seville.",
     "cv_title": "Resume",
     "experience":"Experience",
     "work1_title":"Software Engineer - ITURRI",
@@ -19,6 +19,9 @@
     "work2_title":"Student intern - ITURRI",
     "work2_time":"october 2020 - april 2021 (part-time work)",
     "work2_description":"I decided to do <b>extracurricular internships</b> during my degree and ITURRI was the company that offered me the opportunity. I joined the <b>Organization and Systems</b> department, where I was trained mainly in process robotization tools, Azure cloud services, as well as in the testing and development of various technical solutions.",
+    "work3_title":"RPA Developer - Servinform",
+    "work3_time":"september 2021 - present (full time)",
+    "work3_description":"After some time after having started in the working world, I decided to make my first change at a professional level, trying to focus on what I like to do the most: programming. This company gave me the opportunity to train in <b>UiPath</b>, technology with which I currently develop robotic solutions of different technical level to a number of customers.",
     "training":"Training",
     "training1_title":"Computer Engineering - Software Engineering",
     "training1_time":"Escuela Técnica Superior de Ingeniería Informática (Seville) | september 2016 - march 2021",
@@ -51,9 +54,11 @@
     "languages_certifications":"Languages and certifications",
     "english_level":"English level B2",
     "english_level_description":"I obtained the B2 certificate in English issued by APTIS.",
+    "uipath_cert":"UiPath Advanced RPA Developer",
+    "uipath_cert_description":"Ability to build complex and efficient RPA solutions independently",
     "all_rights":"&copy; Pablo Ripoll Torrejón. All rights reserved.",
     "cv_pdf_div":"<a href='docs/cv_en.pdf' target='_blank' class='btn btn-primary'>Download CV</a>",
-    "last_update":"Last update: 18/07/2021",
+    "last_update":"Last update: 05/11/2022",
     "projects":"Projects"
     
 }
