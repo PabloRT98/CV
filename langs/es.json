@@ -56,14 +56,10 @@
     "languages_certifications":"Idiomas y certificaciones",
     "english_level":"Nivel B2 de Inglés",
     "english_level_description":"Obtuve el certificado de B2 de Inglés expedido por APTIS",
-    "uipath_cert":"UiPath Advanced RPA Developer",
-    "uipath_cert_description":"Habilidad para construir soluciones RPA complejas y eficientes de forma independiente",
+    "uipath_cert_developer_description":"Habilidad para construir soluciones RPA complejas y eficientes de forma independiente",
+    "uipath_cert_infra_description":"Validar el análisis de los requisitos de infraestructura, hacer que el diseño de arquitecturas se ajusten a las políticas corporativas y las definiciones de soluciones para gestionar la implementación, el mantenimiento y las actualizaciones de Automation Suite en entornos Linux",
     "all_rights":"&copy; Pablo Ripoll Torrejón. Todos los derechos reservados.",
     "cv_pdf_div":"<a href='docs/cv_es.pdf' target='_blank' class='btn btn-primary'>Descargar CV</a>",
-    "last_update":"Última actualización: 26/03/2023",
+    "last_update":"Última actualización: 03/02/2026",
     "projects":"Proyectos"
-    
-
-    
-
 }
