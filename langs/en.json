@@ -22,8 +22,11 @@
     "work3_time":"september 2021 - january 2023",
     "work3_description":"After some time after having started in the working world, I decided to make my first change at a professional level, trying to focus on what I like to do the most: programming. This company gave me the opportunity to train in <b>UiPath</b>, technology with which I currently develop robotic solutions of different technical level to a number of customers.",
     "work4_title":"RPA Analyst - Servinform",
-    "work4_time":"january 2023 - present (full time)",
+    "work4_time":"january 2023 - january 2026",
     "work4_description":"I was promoted to the position of <b>Analyst</b> when I felt ready to take on a higher level of responsibility and after mastering the principles of our architecture, as well as having been involved in different types of projects in which I performed various roles and more advanced tasks.",
+    "work5_title":"Technical Manager | .NET Automation",
+    "work5_time":"january 2026 - present (full time)",
+    "work5_description":"Oversight of multiple development projects, ensuring timely delivery and maintaining high technical quality across solutions. I provide technical guidance and supervision to development teams, supporting design and architecture decisions while upholding strong engineering standards. Additionally, I coordinate and allocate developers and analysts across client projects according to skills and project priorities, acting as the main technical point of contact between internal teams and stakeholders to ensure successful project execution.",
     "training":"Training",
     "training1_title":"Computer Engineering - Software Engineering",
     "training1_time":"Escuela Técnica Superior de Ingeniería Informática (Seville) | september 2016 - march 2021",
@@ -60,6 +63,6 @@
     "uipath_cert_infra_description":"Validate the analysis of infrastructure requirements, ensure that architecture designs comply with corporate policies and solution definitions, and manage the implementation, maintenance, and upgrades of Automation Suite in Linux environments",
     "all_rights":"&copy; Pablo Ripoll Torrejón. All rights reserved.",
     "cv_pdf_div":"<a href='docs/cv_en.pdf' target='_blank' class='btn btn-primary'>Download CV</a>",
-    "last_update":"Last update: 03/02/2026",
+    "last_update":"Last update: 09/03/2026",
     "projects":"Projects"
 }

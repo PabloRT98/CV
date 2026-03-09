@@ -22,8 +22,11 @@
     "work3_time":"septiembre 2021 - enero 2023",
     "work3_description":"Tras un cierto tiempo después de haber iniciado en el mundo laboral, decidí hacer mi primer cambio a nivel profesional, tratando de enfocarme en lo que más me gusta hacer: la programación. Esta empresa me dio la oportunidad de formarme en <b>UiPath</b>, tecnología con la que actualmente desarrollo soluciones robotizadas de diferente nivel técnico a una serie de clientes.",
     "work4_title":"Analista RPA - Servinform",
-    "work4_time":"enero 2023 - actualidad (jornada completa)",
+    "work4_time":"enero 2023 - enero 2026",
     "work4_description":"Ascendí al puesto de <b>Analista</b> cuando me veía preparado para afrontar un nivel de responsabilidad más alto y tras dominar los principios de nuestra arquitectura, así como haber estado involucrado en proyectos de diferente índole en los que desempeñé diversas funciones y tareas más avanzadas.",
+    "work5_title":"Technical Manager | Automatización .NET",
+    "work5_time":"enero 2026 - actualidad (jornada completa)",
+    "work5_description":"Supervisión de múltiples proyectos de desarrollo, asegurando la entrega puntual y manteniendo altos estándares de calidad técnica en las soluciones. Proporciono orientación y supervisión técnica a los equipos de desarrollo, apoyando las decisiones de diseño y arquitectura, manteniendo sólidos estándares de ingeniería. Además, coordino y asigno desarrolladores y analistas a los distintos proyectos de clientes según sus habilidades y prioridades, actuando como el principal punto de contacto técnico entre los equipos internos y las partes interesadas para garantizar la correcta ejecución de los proyectos.",
     "training":"Formación",
     "training1_title":"Ingeniería Informática - Ingeniería del Software",
     "training1_time":"Escuela Técnica Superior de Ingeniería Informática (Sevilla) | septiembre 2016 - marzo 2021",
@@ -60,6 +63,6 @@
     "uipath_cert_infra_description":"Validar el análisis de los requisitos de infraestructura, hacer que el diseño de arquitecturas se ajusten a las políticas corporativas y las definiciones de soluciones para gestionar la implementación, el mantenimiento y las actualizaciones de Automation Suite en entornos Linux",
     "all_rights":"&copy; Pablo Ripoll Torrejón. Todos los derechos reservados.",
     "cv_pdf_div":"<a href='docs/cv_es.pdf' target='_blank' class='btn btn-primary'>Descargar CV</a>",
-    "last_update":"Última actualización: 03/02/2026",
+    "last_update":"Última actualización: 09/03/2026",
     "projects":"Proyectos"
 }
