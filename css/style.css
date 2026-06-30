@@ -1588,8 +1588,19 @@ p.under-scroll {
 }
 
 .mouse {
-  margin: 40px auto;
-  /* display: inline-block; */
+  margin: 30px auto 0;
+}
+
+/* Desktop/tablet: anchor the scroll cue to the bottom of the full-height hero
+   so it stays visible regardless of how tall the centered content is. */
+@media screen and (min-width: 769px) {
+  .mouse {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: 0;
+  }
 }
 /* .mouse p{
   margin-bottom: 0;
@@ -1680,5 +1691,177 @@ only screen and (max-height: 644px){
 
 .min-size-to-div > a:nth-child(1) {
   width: 200px;
+}
+
+/* === RESPONSIVE IMPROVEMENTS === */
+
+/* 1. Skill images: reduce from 150×150 to 80×80 on mobile */
+@media screen and (max-width: 768px) {
+  .same-size {
+    width: 80px;
+    height: 80px;
+  }
+  /* 2. Reduce tech-title top margin on mobile */
+  .tech-title {
+    margin-top: 10px;
+  }
+}
+
+/* 3. Header hero buttons: stack vertically on xs screens */
+@media screen and (max-width: 576px) {
+  .min-size-to-div {
+    max-width: 100%;
+    display: block !important;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  .min-size-to-div > a:nth-child(1) {
+    width: auto;
+  }
+}
+
+/* 4. iOS Safari fix: background-attachment:fixed is broken on mobile */
+@media screen and (max-width: 768px) {
+  #fh5co-header,
+  .fh5co-cover {
+    background-attachment: scroll;
+    height: auto;
+    min-height: 0;
+  }
+  /* Convert the table layout to normal flow so the hero content (photo, titles,
+     buttons, scroll cue) is never vertically clipped on short cells. */
+  #fh5co-header .display-t,
+  .fh5co-cover .display-t,
+  #fh5co-header .display-tc,
+  .fh5co-cover .display-tc {
+    display: block;
+    height: auto !important;
+  }
+  #fh5co-header .display-tc,
+  .fh5co-cover .display-tc {
+    padding: 40px 0 30px;
+  }
+}
+
+/* 5. Skill carousel: 2 columns on all mobile (up to 767px) */
+@media (max-width: 767px) {
+  #fh5co-work .col-md-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  #fh5co-work .tech-title {
+    font-size: 13px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+  #fh5co-work .tech-subtitle {
+    font-size: 12px;
+  }
+}
+
+/* 6. Timeline company logos: ensure visible height and proper scaling */
+.timeline-panel .col-md-2 {
+  min-height: 60px;
+  background-size: contain !important;
+  background-position: center center !important;
+}
+
+/* 7. Certification cards: responsive width (replaces inline style="width:18rem") */
+.cert-card {
+  width: 18rem;
+  max-width: 100%;
+}
+
+/* 8. Social buttons in About: hover-expand doesn't work on touch — always show labels on mobile */
+@media screen and (max-width: 768px) {
+  .social-links {
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+  }
+}
+
+/* 9. Timeline: normalize logo position on mobile.
+      On desktop the DOM order alternates (inverted vs unverted) for the left/right layout.
+      On mobile: keep heading + logo on the same row (no-wrap), logo as a small badge on the right. */
+@media screen and (max-width: 767px) {
+  .timeline-panel .row {
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+  .timeline-panel .col-md-10 {
+    order: 1;
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+  .timeline-panel .col-md-2 {
+    order: 2;
+    flex: 0 0 54px;
+    max-width: 54px;
+    min-height: 54px;
+    align-self: flex-start;
+    margin-left: 12px !important;
+    margin-right: 30px !important;
+    margin-top: 2px !important;
+  }
+}
+
+/* 10. Competences: keep 3 columns on mobile (matches desktop layout) */
+@media screen and (max-width: 767px) {
+  #fh5co-features .col-md-4 {
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+  }
+  #fh5co-features .feature-left h3 {
+    font-size: 14px;
+  }
+}
+
+/* 11. Certification cards: vertical spacing on all mobile + 2 columns on tablet */
+@media screen and (max-width: 767px) {
+  #fh5co-blog .col-md-4 {
+    margin-bottom: 24px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  #fh5co-blog .col-md-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+/* 12. Certification cards: equal height per row — whitespace pushed to bottom of card body */
+#fh5co-blog .col-md-4 {
+  display: flex;
+  flex-direction: column;
+}
+#fh5co-blog .cert-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+#fh5co-blog .cert-card .card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+#fh5co-blog .cert-card .card-body p {
+  flex: 1;
+}
+
+/* 13. Profile photo: reduce size on mobile */
+@media screen and (max-width: 768px) {
+  #fh5co-header .display-tc .profile-thumb,
+  .fh5co-cover .display-tc .profile-thumb {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* 14. Section headings: reduce bottom margin on mobile */
+@media screen and (max-width: 768px) {
+  .fh5co-heading {
+    margin-bottom: 2em;
+  }
 }
 
