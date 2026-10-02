@@ -13,7 +13,7 @@ Personal CV/portfolio website for Pablo Ripoll Torrejón. Single-page static sit
 | `langs/en.json` | English translation strings |
 | `langs/es.json` | Spanish translation strings |
 | `docs/cv_en.pdf` / `docs/cv_es.pdf` | Downloadable CV PDFs |
-| `images/` | Logos, certification badges and photos (`profile.jpg` is the hero portrait, cropped from `pablete_2.jpg`) |
+| `images/` | Logos, certification badges and photos (`profile.jpg` is the hero portrait, cropped from `pablete_2.jpg`; `og-image.png` is the 1200×630 link-preview card) |
 
 `linkedin/` holds the banner and the copy-paste texts used to keep the LinkedIn profile in sync with the CV (not part of the site).
 
