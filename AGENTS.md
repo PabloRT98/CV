@@ -13,9 +13,9 @@ Personal CV/portfolio website for Pablo Ripoll Torrejón. Single-page static sit
 | `langs/en.json` | English translation strings |
 | `langs/es.json` | Spanish translation strings |
 | `docs/cv_en.pdf` / `docs/cv_es.pdf` | Downloadable CV PDFs |
-| `images/` | Photos, icons, logos (`profile.jpg` is the hero portrait) |
+| `images/` | Logos, certification badges and photos (`profile.jpg` is the hero portrait, cropped from `pablete_2.jpg`) |
 
-Other files under `css/` and `js/` (Bootstrap, jQuery, Font Awesome, Animate.css, Stellar, Waypoints, Icomoon, `sass/`) belong to the previous template and are no longer referenced by `index.html`. They can be deleted; do not reintroduce them.
+`linkedin/` holds the banner and the copy-paste texts used to keep the LinkedIn profile in sync with the CV (not part of the site).
 
 ## No Build System
 
